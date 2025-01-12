@@ -1,29 +1,12 @@
 import React from 'react'
-
+import '../assets/Css/Header.css'
 const Header = () => {
   return (
     <>
 <div data-section-id="header" data-section-type="header-section" data-header-section="">
   
     
-  {/* <style>
-    .announcement-bar {
-      background-color: #450b5a;
-    }
-
-    .announcement-bar__link:hover {
-      
-
-      
-        
-        background-color: #751398;
-      
-    }
-
-    .announcement-bar__message {
-      color: #e9a346;
-    }
-  </style> */}
+  
 
   <div class="announcement-bar" role="region" aria-label="Announcement"><p class="announcement-bar__message">Late Winter Sale | FLAT 50% OFF on Cold Processed Soaps</p></div>
 

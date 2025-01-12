@@ -1,0 +1,11 @@
+.announcement-bar {
+  background-color: #450b5a;
+}
+
+.announcement-bar__link:hover {
+  background-color: #751398;
+}
+
+.announcement-bar__message {
+  color: #e9a346;
+}

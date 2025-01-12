@@ -112,26 +112,34 @@ h2 a {
 }
 .h1,
 h1 {
-  font-size: calc(((var(--font-h1-desktop)) / (var(--font-size-base))) * 1em);
+  font-size: calc(
+    ((var(--font-h1-desktop)) / (var(--font-size-base))) * 1em
+  );
   text-transform: none;
   letter-spacing: 0;
 }
 @media only screen and (max-width: 749px) {
   .h1,
   h1 {
-    font-size: calc(((var(--font-h1-mobile)) / (var(--font-size-base))) * 1em);
+    font-size: calc(
+      ((var(--font-h1-mobile)) / (var(--font-size-base))) * 1em
+    );
   }
 }
 .h2,
 h2 {
-  font-size: calc(((var(--font-h2-desktop)) / (var(--font-size-base))) * 1em);
+  font-size: calc(
+    ((var(--font-h2-desktop)) / (var(--font-size-base))) * 1em
+  );
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 @media only screen and (max-width: 749px) {
   .h2,
   h2 {
-    font-size: calc(((var(--font-h2-mobile)) / (var(--font-size-base))) * 1em);
+    font-size: calc(
+      ((var(--font-h2-mobile)) / (var(--font-size-base))) * 1em
+    );
   }
 }
 p {
@@ -294,7 +302,9 @@ p:last-child {
   }
   .site-header__icons .btn--link,
   .site-header__icons .site-header__cart {
-    font-size: calc(((var(--font-size-base)) / (var(--font-size-base))) * 1em);
+    font-size: calc(
+      ((var(--font-size-base)) / (var(--font-size-base))) * 1em
+    );
   }
 }
 .site-header__icons-wrapper {
@@ -366,7 +376,8 @@ p:last-child {
   height: 1em;
 }
 .site-header__cart-count span {
-  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-size: calc(11em / 16);
   line-height: 1;
 }

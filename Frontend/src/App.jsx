@@ -1,6 +1,6 @@
 import Footer from "./Components/Footer"
 import Header from "./Components/Header"
-import './Home/home.css'
+// import '../src/assets/Css/comon.css'
 function App() {
 
   return (
