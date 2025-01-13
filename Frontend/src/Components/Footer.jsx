@@ -3,8 +3,13 @@ import '../assets/Css/comon.css'
 const Footer = () => {
   return (
     <>
+    <div id="shopify-section-footer" class="shopify-section">
+
+
+
+
       <footer
-        class="site-footer critical-hidden"
+        class="site-footer"
         role="contentinfo"
         data-section-id="footer"
         data-section-type="footer-section"
@@ -202,6 +207,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+                      </div>
     </>
   );
 };
