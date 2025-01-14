@@ -586,7 +586,7 @@ p:last-child {
 
 
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 /*============================================================================
   Debut | Built with Shopify Slate
@@ -2101,7 +2101,7 @@ textarea {
 
 /*================ #Helper Classes ================*/
 .clearfix {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .clearfix::after {
@@ -2211,7 +2211,7 @@ textarea {
 
 /*================ #Basic Styles ================*/
 .page-width {
-  *zoom: 1;
+  zoom: 1;
   max-width: 1200px;
   margin: 0 auto;
 }
