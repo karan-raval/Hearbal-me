@@ -27,9 +27,9 @@ const Home = () => {
                   <div id="ProductCardImageWrapper-collection-6075133821081"
                     className="grid-view-item__image-wrapper product-card__image-wrapper js">
                     <div style={{ paddingTop: '100%' }}>
-                      <img id="ProductCardImage-collection-6075133821081" className="grid-view-item__image lazyload"
+                      <img id="ProductCardImage-collection-6075133821081" className="grid-view-item__image"
                         alt="Dark Brown Natural Hair Color"
-                        src="//herbalme.in/cdn/shop/files/2_250x250@2x.png?v=1711690372"
+                        src="https://herbalme.in/cdn/shop/files/2_250x250@2x.png?v=1711690372"
                         style={{ maxWidth: '250px', maxHeight: '250px' }}
                       />
                     </div>
@@ -37,7 +37,7 @@ const Home = () => {
                 </div>
 
                 <noscript>
-                  <img className="grid-view-item__image" src="//herbalme.in/cdn/shop/files/2_250x250@2x.png?v=1711690372"
+                  <img className="grid-view-item__image" src="https://herbalme.in/cdn/shop/files/2_250x250@2x.png?v=1711690372"
                     alt="Dark Brown Natural Hair Color" style={{ maxWidth: '250px' }} />
                 </noscript>
 
@@ -106,9 +106,9 @@ const Home = () => {
                   <div id="ProductCardImageWrapper-collection-6073234882713"
                     className="grid-view-item__image-wrapper product-card__image-wrapper js">
                     <div style={{ paddingTop: '100%' }}>
-                      <img id="ProductCardImage-collection-6073234882713" className="grid-view-item__image lazyload"
+                      <img id="ProductCardImage-collection-6073234882713" className="grid-view-item__image"
                         alt="Soft Black Natural Hair Color"
-                        src="//herbalme.in/cdn/shop/files/6_250x250@2x.png?v=1711690475"
+                        src="https://herbalme.in/cdn/shop/files/6_250x250@2x.png?v=1711690475"
                         style={{ maxWidth: '250px', maxHeight: '250px' }}
                       />
                     </div>
@@ -116,7 +116,7 @@ const Home = () => {
                 </div>
 
                 <noscript>
-                  <img className="grid-view-item__image" src="//herbalme.in/cdn/shop/files/6_250x250@2x.png?v=1711690475"
+                  <img className="grid-view-item__image" src="https://herbalme.in/cdn/shop/files/6_250x250@2x.png?v=1711690475"
                     alt="Soft Black Natural Hair Color" style={{ maxWidth: '250px' }} />
                 </noscript>
 
@@ -184,9 +184,9 @@ const Home = () => {
                   <div id="ProductCardImageWrapper-collection-7819151114393"
                     className="grid-view-item__image-wrapper product-card__image-wrapper js">
                     <div style={{ paddingTop: '100%' }}>
-                      <img id="ProductCardImage-collection-7819151114393" className="grid-view-item__image lazyload"
+                      <img id="ProductCardImage-collection-7819151114393" className="grid-view-item__image"
                         alt="Shampoo Bar - Henna- 100% Natural"
-                        src="//herbalme.in/cdn/shop/files/21_250x250@2x.png?v=1711691830"
+                        src="https://herbalme.in/cdn/shop/files/21_250x250@2x.png?v=1711691830"
                         style={{ maxWidth: '250px', maxHeight: '250px' }}
                       />
                     </div>
@@ -194,7 +194,7 @@ const Home = () => {
                 </div>
 
                 <noscript>
-                  <img className="grid-view-item__image" src="//herbalme.in/cdn/shop/files/21_250x250@2x.png?v=1711691830"
+                  <img className="grid-view-item__image" src="https://herbalme.in/cdn/shop/files/21_250x250@2x.png?v=1711691830"
                     alt="Shampoo Bar - Henna- 100% Natural" style={{ maxWidth: '250px' }} />
                 </noscript>
 
@@ -262,9 +262,9 @@ const Home = () => {
                   <div id="ProductCardImageWrapper-collection-7389999267993"
                     className="grid-view-item__image-wrapper product-card__image-wrapper js">
                     <div style={{ paddingTop: '100%' }}>
-                      <img id="ProductCardImage-collection-7389999267993" className="grid-view-item__image lazyload"
+                      <img id="ProductCardImage-collection-7389999267993" className="grid-view-item__image"
                         alt="Cream Soap - Turmeric - 100% Natural"
-                        src="//herbalme.in/cdn/shop/files/25_250x250@2x.png?v=1711694223"
+                        src="https://herbalme.in/cdn/shop/files/25_250x250@2x.png?v=1711694223"
                         style={{ maxWidth: '250px', maxHeight: '250px' }}
                       />
                     </div>
@@ -272,7 +272,7 @@ const Home = () => {
                 </div>
 
                 <noscript>
-                  <img className="grid-view-item__image" src="//herbalme.in/cdn/shop/files/25_250x250@2x.png?v=1711694223"
+                  <img className="grid-view-item__image" src="https://herbalme.in/cdn/shop/files/25_250x250@2x.png?v=1711694223"
                     alt="Cream Soap - Turmeric - 100% Natural" style={{ maxWidth: '250px' }} />
                 </noscript>
 
