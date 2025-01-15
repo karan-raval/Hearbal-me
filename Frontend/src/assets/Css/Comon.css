@@ -3027,7 +3027,7 @@ input,
 textarea,
 select,
 .disclosure__toggle {
-  border: 1px solid var(--color-border-form);
+  border: 1px solid #cccccc;
   background-color: var(--color-text-field);
   color: var(--color-text-field-text);
   max-width: 100%;
