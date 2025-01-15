@@ -18,8 +18,7 @@ const Home = () => {
           <ul className="grid grid--uniform grid--view-items">
             <li className="grid__item grid__item--collection small--one-half medium-up--one-quarter">
               <div className="grid-view-item product-card">
-                <a className="grid-view-item__link grid-view-item__image-container full-width-link"
-                  href="/collections/best-sellers/products/dark-brown-200g-certified-natural-henna-hair-color">
+                <a className="grid-view-item__link grid-view-item__image-container full-width-link">
                   <span className="visually-hidden">Dark Brown - Natural Hair Color - Ecocert Certified -
                     200g</span>
                 </a>
@@ -98,8 +97,7 @@ const Home = () => {
 
             <li className="grid__item grid__item--collection small--one-half medium-up--one-quarter">
               <div className="grid-view-item product-card">
-                <a className="grid-view-item__link grid-view-item__image-container full-width-link"
-                  href="/collections/best-sellers/products/soft-black-200g-certified-natural-henna-hair-color">
+                <a className="grid-view-item__link grid-view-item__image-container full-width-link">
                   <span className="visually-hidden">Soft Black - Natural Hair Color - Ecocert Certified -
                     200g</span>
                 </a>
@@ -178,8 +176,7 @@ const Home = () => {
 
             <li className="grid__item grid__item--collection small--one-half medium-up--one-quarter">
               <div className="grid-view-item product-card">
-                <a className="grid-view-item__link grid-view-item__image-container full-width-link"
-                  href="/collections/best-sellers/products/shampoo-bar-henna-100-natural-125-g">
+                <a className="grid-view-item__link grid-view-item__image-container full-width-link">
                   <span className="visually-hidden">Shampoo Bar - Henna - 100% Natural - 125g</span>
                 </a>
 
@@ -257,8 +254,7 @@ const Home = () => {
 
             <li className="grid__item grid__item--collection small--one-half medium-up--one-quarter">
               <div className="grid-view-item product-card">
-                <a className="grid-view-item__link grid-view-item__image-container full-width-link"
-                  href="/collections/best-sellers/products/turmeric-soap-bar-certified-organic-125-gms">
+                <a className="grid-view-item__link grid-view-item__image-container full-width-link">
                   <span className="visually-hidden">Cream Soap - Turmeric - 100% Natural - 125g</span>
                 </a>
 
@@ -337,7 +333,7 @@ const Home = () => {
 
           <hr className="hr--invisible" aria-hidden="true" />
           <div className="text-center">
-            <a href="/collections/best-sellers" className="btn"
+            <a className="btn"
               aria-label="View all products in the Best Selling Natural &amp; Organic Products collection">
               View all
             </a>
