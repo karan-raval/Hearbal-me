@@ -1,9 +1,12 @@
 import React from 'react';
 import Slider from '../components/Slider'; // Adjust the path as necessary
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
     <>
+    <Header/>
      <div className="page-container drawer-page-content" id="PageContainer">
     <main className="main-content js-focus-hidden" id="MainContent" role="main" tabindex="-1">
       {/* <!-- BEGIN content_for_index --> */}
@@ -475,6 +478,7 @@ const Home = () => {
       using a mobile device
     </div>
   </div>
+  <Footer/>
     </>
   );
 };
