@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -61,18 +62,14 @@ const Login = () => {
                   />
 
                   <div class="text-center">
-                    <p>
-                      <a href="#recover" id="RecoverPassword">
-                        Forgot your password?
-                      </a>
-                    </p>
+                   
 
                     <input type="submit" class="btn" value="Sign In" />
 
                     <p>
-                      <a href="/account/register" id="customer_register_link">
+                      <Link to={'/signup'} id="customer_register_link">
                         Create account
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </form>
@@ -112,7 +109,7 @@ const Login = () => {
                         <input type="submit" class="btn" value="Submit" />
                       </p>
 
-                      <a href="#LoginHeading" id="HideRecoverPasswordLink">
+                      <a id="HideRecoverPasswordLink">
                         Cancel
                       </a>
                     </div>
