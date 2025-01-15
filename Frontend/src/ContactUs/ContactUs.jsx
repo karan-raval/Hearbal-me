@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const ContactUs = () => {
   return (
     <>
+    <Header/>
       <main
         class="main-content js-focus-hidden"
         id="MainContent"
@@ -153,6 +156,7 @@ const ContactUs = () => {
           </div>
         </div>
       </main>
+      <Footer/>
     </>
   );
 };

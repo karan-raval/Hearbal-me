@@ -4,6 +4,7 @@ import Home from '../Home/Home'
 import AboutUs from '../About-US/AboutUs'
 import ContactUs from '../ContactUs/ContactUs'
 import Shop from '../Shop/Shop'
+import Login from '../Login/Login'
 const MainRoutes = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const MainRoutes = () => {
         <Route path='/about-us' element={<AboutUs/>}></Route>
         <Route path='/contact-us' element={<ContactUs/>}></Route>
         <Route path='/Shop' element={<Shop/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
     </Routes>
     </>
   )
