@@ -54,57 +54,18 @@ const Header = () => {
       <span class="site-nav__label">Shop</span>
     </a>
   </li>
-
-
-
-
-
-
-  <li>
-    <a class="site-nav__link site-nav__link--main">
-      <span class="site-nav__label">Colour</span>
-    </a>
-  </li>
-
-
-
-
-
-
  
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
   <li>
-    <a href="/pages/about-us" class="site-nav__link site-nav__link--main">
+    <a  class="site-nav__link site-nav__link--main">
       <span class="site-nav__label">About Us</span>
     </a>
   </li>
 
 
 
-
-
-
   <li>
-    <a href="/pages/contact-us" class="site-nav__link site-nav__link--main">
+    <a  class="site-nav__link site-nav__link--main">
       <span class="site-nav__label">Contact Us</span>
     </a>
   </li>
@@ -125,14 +86,14 @@ const Header = () => {
 
       
         
-          <a href="/account/login" class="site-header__icon site-header__account">
+          <a class="site-header__icon site-header__account">
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-login" viewBox="0 0 28.33 37.68"><path d="M14.17 14.9a7.45 7.45 0 1 0-7.5-7.45 7.46 7.46 0 0 0 7.5 7.45zm0-10.91a3.45 3.45 0 1 1-3.5 3.46A3.46 3.46 0 0 1 14.17 4zM14.17 16.47A14.18 14.18 0 0 0 0 30.68c0 1.41.66 4 5.11 5.66a27.17 27.17 0 0 0 9.06 1.34c6.54 0 14.17-1.84 14.17-7a14.18 14.18 0 0 0-14.17-14.21zm0 17.21c-6.3 0-10.17-1.77-10.17-3a10.17 10.17 0 1 1 20.33 0c.01 1.23-3.86 3-10.16 3z"></path></svg>
             <span class="icon__fallback-text">Log in</span>
           </a>
         
       
 
-      <a href="/cart" class="site-header__icon site-header__cart">
+      <a class="site-header__icon site-header__cart">
         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 37 40"><path d="M36.5 34.8L33.3 8h-5.9C26.7 3.9 23 .8 18.5.8S10.3 3.9 9.6 8H3.7L.5 34.8c-.2 1.5.4 2.4.9 3 .5.5 1.4 1.2 3.1 1.2h28c1.3 0 2.4-.4 3.1-1.3.7-.7 1-1.8.9-2.9zm-18-30c2.2 0 4.1 1.4 4.7 3.2h-9.5c.7-1.9 2.6-3.2 4.8-3.2zM4.5 35l2.8-23h2.2v3c0 1.1.9 2 2 2s2-.9 2-2v-3h10v3c0 1.1.9 2 2 2s2-.9 2-2v-3h2.2l2.8 23h-28z"></path></svg>
         <span class="icon__fallback-text">Cart</span>
         <div id="CartCount" class="site-header__cart-count hide critical-hidden" data-cart-count-bubble="">
@@ -157,7 +118,7 @@ const Header = () => {
     
 <li class="mobile-nav__item border-bottom">
         
-          <a href="/collections/all" class="mobile-nav__link">
+          <a class="mobile-nav__link">
             <span class="mobile-nav__label">Shop</span>
           </a>
         
@@ -165,7 +126,7 @@ const Header = () => {
     
 <li class="mobile-nav__item border-bottom">
         
-          <a href="/collections/hair-color" class="mobile-nav__link">
+          <a class="mobile-nav__link">
             <span class="mobile-nav__label">Coour</span>
           </a>
         
@@ -198,7 +159,7 @@ const Header = () => {
             
               <li class="mobile-nav__item border-bottom">
                 
-                  <a href="/collections/hair-color" class="mobile-nav__sublist-link">
+                  <a class="mobile-nav__sublist-link">
                     <span class="mobile-nav__label">Hair Colors</span>
                   </a>
                 
@@ -206,7 +167,7 @@ const Header = () => {
             
               <li class="mobile-nav__item border-bottom">
                 
-                  <a href="/collections/cold-processed-shampoo-bars" class="mobile-nav__sublist-link">
+                  <a class="mobile-nav__sublist-link">
                     <span class="mobile-nav__label">Cold Processed Shampoo Bars</span>
                   </a>
                 
@@ -214,7 +175,7 @@ const Header = () => {
             
               <li class="mobile-nav__item border-bottom">
                 
-                  <a href="/collections/hair-oils" class="mobile-nav__sublist-link">
+                  <a class="mobile-nav__sublist-link">
                     <span class="mobile-nav__label">Hair Oils</span>
                   </a>
                 
@@ -222,7 +183,7 @@ const Header = () => {
             
               <li class="mobile-nav__item">
                 
-                  <a href="/collections/hair-powders" class="mobile-nav__sublist-link">
+                  <a class="mobile-nav__sublist-link">
                     <span class="mobile-nav__label">Hair Packs</span>
                   </a>
                 
@@ -275,20 +236,20 @@ const Header = () => {
                             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 14 14"><path d="M10.129.604a1.125 1.125 0 0 0-1.591 0L3.023 6.12s.049-.049-.003.004l-.082.08c-.439.44-.44 1.153 0 1.592l5.6 5.6a1.125 1.125 0 0 0 1.59-1.59L5.325 7l4.805-4.805c.44-.439.44-1.151 0-1.59z" fill="#fff"></path></svg>
                           </button>
                         </div>
-                        <a href="/collections/face-oils" class="mobile-nav__sublist-link mobile-nav__sublist-header">
+                        <a class="mobile-nav__sublist-link mobile-nav__sublist-header">
                           <span class="mobile-nav__label">Face</span>
                         </a>
                       </div>
                     </li>
                     
                       <li class="mobile-nav__item border-bottom">
-                        <a href="/collections/face-oils" class="mobile-nav__sublist-link">
+                        <a class="mobile-nav__sublist-link">
                           <span class="mobile-nav__label">Face Oils</span>
                         </a>
                       </li>
                     
                       <li class="mobile-nav__item">
-                        <a href="/collections/face-powders" class="mobile-nav__sublist-link">
+                        <a class="mobile-nav__sublist-link">
                           <span class="mobile-nav__label">Face Packs</span>
                         </a>
                       </li>
@@ -315,26 +276,26 @@ const Header = () => {
                             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 14 14"><path d="M10.129.604a1.125 1.125 0 0 0-1.591 0L3.023 6.12s.049-.049-.003.004l-.082.08c-.439.44-.44 1.153 0 1.592l5.6 5.6a1.125 1.125 0 0 0 1.59-1.59L5.325 7l4.805-4.805c.44-.439.44-1.151 0-1.59z" fill="#fff"></path></svg>
                           </button>
                         </div>
-                        <a href="/collections/body-oils" class="mobile-nav__sublist-link mobile-nav__sublist-header">
+                        <a class="mobile-nav__sublist-link mobile-nav__sublist-header">
                           <span class="mobile-nav__label">Body </span>
                         </a>
                       </div>
                     </li>
                     
                       <li class="mobile-nav__item border-bottom">
-                        <a href="/collections/body-oils" class="mobile-nav__sublist-link">
+                        <a class="mobile-nav__sublist-link">
                           <span class="mobile-nav__label">Body Oils</span>
                         </a>
                       </li>
                     
                       <li class="mobile-nav__item border-bottom">
-                        <a href="/collections/body-powders" class="mobile-nav__sublist-link">
+                        <a class="mobile-nav__sublist-link">
                           <span class="mobile-nav__label">Body Packs</span>
                         </a>
                       </li>
                     
                       <li class="mobile-nav__item">
-                        <a href="/collections/cold-process-soaps" class="mobile-nav__sublist-link">
+                        <a hclass="mobile-nav__sublist-link">
                           <span class="mobile-nav__label">Cold Process Soap Bars</span>
                         </a>
                       </li>
@@ -374,7 +335,7 @@ const Header = () => {
             
               <li class="mobile-nav__item border-bottom">
                 
-                  <a href="/collections/cold-pressed-100-organic-oils" class="mobile-nav__sublist-link">
+                  <a class="mobile-nav__sublist-link">
                     <span class="mobile-nav__label">Carrier Oils</span>
                   </a>
                 
@@ -382,7 +343,7 @@ const Header = () => {
             
               <li class="mobile-nav__item">
                 
-                  <a href="/collections/100-plant-powders" class="mobile-nav__sublist-link">
+                  <a class="mobile-nav__sublist-link">
                     <span class="mobile-nav__label">Plant Powders</span>
                   </a>
                 
@@ -394,7 +355,7 @@ const Header = () => {
     
 <li class="mobile-nav__item border-bottom">
         
-          <a href="/pages/about-us" class="mobile-nav__link">
+          <a class="mobile-nav__link">
             <span class="mobile-nav__label">About Us</span>
           </a>
         
@@ -402,7 +363,7 @@ const Header = () => {
     
 <li class="mobile-nav__item">
         
-          <a href="/pages/contact-us" class="mobile-nav__link">
+          <a class="mobile-nav__link">
             <span class="mobile-nav__label">Contact Us</span>
           </a>
         
