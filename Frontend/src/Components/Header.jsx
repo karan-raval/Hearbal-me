@@ -23,7 +23,7 @@ const Header = () => {
       <h1 class="h2 site-header__logo">
     
       
-<a href="/" class="site-header__logo-image">
+<a class="site-header__logo-image">
           
           <img class="js lazyautosizes ls-is-cached lazyloaded" src="//herbalme.in/cdn/shop/files/logo_1_300x300.jpg?v=1615323431" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="3.668918918918919" data-sizes="auto" alt="Herbal Me " style={{maxwidth: 175}} data-srcset="//herbalme.in/cdn/shop/files/logo_1_180x.jpg?v=1615323431 180w, //herbalme.in/cdn/shop/files/logo_1_360x.jpg?v=1615323431 360w, //herbalme.in/cdn/shop/files/logo_1_540x.jpg?v=1615323431 540w, //herbalme.in/cdn/shop/files/logo_1_720x.jpg?v=1615323431 720w, //herbalme.in/cdn/shop/files/logo_1_900x.jpg?v=1615323431 900w, //herbalme.in/cdn/shop/files/logo_1_1080x.jpg?v=1615323431 1080w, //herbalme.in/cdn/shop/files/logo_1_1296x.jpg?v=1615323431 1296w, //herbalme.in/cdn/shop/files/logo_1_1512x.jpg?v=1615323431 1512w, //herbalme.in/cdn/shop/files/logo_1_1728x.jpg?v=1615323431 1728w, //herbalme.in/cdn/shop/files/logo_1_2048x.jpg?v=1615323431 2048w" sizes="175px" srcset="//herbalme.in/cdn/shop/files/logo_1_180x.jpg?v=1615323431 180w, //herbalme.in/cdn/shop/files/logo_1_360x.jpg?v=1615323431 360w, //herbalme.in/cdn/shop/files/logo_1_540x.jpg?v=1615323431 540w, //herbalme.in/cdn/shop/files/logo_1_720x.jpg?v=1615323431 720w, //herbalme.in/cdn/shop/files/logo_1_900x.jpg?v=1615323431 900w, //herbalme.in/cdn/shop/files/logo_1_1080x.jpg?v=1615323431 1080w, //herbalme.in/cdn/shop/files/logo_1_1296x.jpg?v=1615323431 1296w, //herbalme.in/cdn/shop/files/logo_1_1512x.jpg?v=1615323431 1512w, //herbalme.in/cdn/shop/files/logo_1_1728x.jpg?v=1615323431 1728w, //herbalme.in/cdn/shop/files/logo_1_2048x.jpg?v=1615323431 2048w"/>
           <noscript>
@@ -50,7 +50,7 @@ const Header = () => {
 
 
   <li>
-    <a href="/collections/all" class="site-nav__link site-nav__link--main">
+    <a class="site-nav__link site-nav__link--main">
       <span class="site-nav__label">Shop</span>
     </a>
   </li>
@@ -61,7 +61,7 @@ const Header = () => {
 
 
   <li>
-    <a href="/collections/hair-color" class="site-nav__link site-nav__link--main">
+    <a class="site-nav__link site-nav__link--main">
       <span class="site-nav__label">Colour</span>
     </a>
   </li>
@@ -71,154 +71,21 @@ const Header = () => {
 
 
 
-  <li class="site-nav--has-dropdown" data-has-dropdowns="">
-    <button class="site-nav__link site-nav__link--main site-nav__link--button" type="button" aria-expanded="false" aria-controls="SiteNavLabel-hair">
-      <span class="site-nav__label">Hair</span><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-down" viewBox="0 0 9 9"><path d="M8.542 2.558a.625.625 0 0 1 0 .884l-3.6 3.6a.626.626 0 0 1-.884 0l-3.6-3.6a.625.625 0 1 1 .884-.884L4.5 5.716l3.158-3.158a.625.625 0 0 1 .884 0z" fill="#fff"></path></svg>
-    </button>
-
-    <div class="site-nav__dropdown critical-hidden site-nav__dropdown--left" id="SiteNavLabel-hair">
-      
-        <ul>
-          
-            <li>
-              <a href="/collections/hair-color" class="site-nav__link site-nav__child-link">
-                <span class="site-nav__label">Hair Colors</span>
-              </a>
-            </li>
-          
-            <li>
-              <a href="/collections/cold-processed-shampoo-bars" class="site-nav__link site-nav__child-link">
-                <span class="site-nav__label">Cold Processed Shampoo Bars</span>
-              </a>
-            </li>
-          
-            <li>
-              <a href="/collections/hair-oils" class="site-nav__link site-nav__child-link">
-                <span class="site-nav__label">Hair Oils</span>
-              </a>
-            </li>
-          
-            <li>
-              <a href="/collections/hair-powders" class="site-nav__link site-nav__child-link site-nav__link--last">
-                <span class="site-nav__label">Hair Packs</span>
-              </a>
-            </li>
-          
-        </ul>
-      
-    </div>
-  </li>
+ 
 
 
 
 
 
 
-  <li class="site-nav--has-dropdown site-nav--has-centered-dropdown" data-has-dropdowns="">
-    <button class="site-nav__link site-nav__link--main site-nav__link--button" type="button" aria-expanded="false" aria-controls="SiteNavLabel-skin">
-      <span class="site-nav__label">Skin</span><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-down" viewBox="0 0 9 9"><path d="M8.542 2.558a.625.625 0 0 1 0 .884l-3.6 3.6a.626.626 0 0 1-.884 0l-3.6-3.6a.625.625 0 1 1 .884-.884L4.5 5.716l3.158-3.158a.625.625 0 0 1 .884 0z" fill="#fff"></path></svg>
-    </button>
-
-    <div class="site-nav__dropdown site-nav__dropdown--centered critical-hidden site-nav__dropdown--left" id="SiteNavLabel-skin" style={{top: 41}}>
-      
-        <div class="site-nav__childlist">
-          <ul class="site-nav__childlist-grid">
-            
-              
-                <li class="site-nav__childlist-item">
-                  <a href="/collections/face-oils" class="site-nav__link site-nav__child-link site-nav__child-link--parent">
-                    <span class="site-nav__label">Face</span>
-                  </a>
-
-                  
-                    <ul>
-                    
-                      <li>
-                        <a href="/collections/face-oils" class="site-nav__link site-nav__child-link">
-                          <span class="site-nav__label">Face Oils</span>
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/collections/face-powders" class="site-nav__link site-nav__child-link">
-                          <span class="site-nav__label">Face Packs</span>
-                        </a>
-                      </li>
-                    
-                    </ul>
-                  
-
-                </li>
-              
-                <li class="site-nav__childlist-item">
-                  <a href="/collections/body-oils" class="site-nav__link site-nav__child-link site-nav__child-link--parent">
-                    <span class="site-nav__label">Body </span>
-                  </a>
-
-                  
-                    <ul>
-                    
-                      <li>
-                        <a href="/collections/body-oils" class="site-nav__link site-nav__child-link">
-                          <span class="site-nav__label">Body Oils</span>
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/collections/body-powders" class="site-nav__link site-nav__child-link">
-                          <span class="site-nav__label">Body Packs</span>
-                        </a>
-                      </li>
-                    
-                      <li>
-                        <a href="/collections/cold-process-soaps" class="site-nav__link site-nav__child-link">
-                          <span class="site-nav__label">Cold Process Soap Bars</span>
-                        </a>
-                      </li>
-                    
-                    </ul>
-                  
-
-                </li>
-              
-            
-          </ul>
-        </div>
-
-      
-    </div>
-  </li>
+  
 
 
 
 
 
 
-  <li class="site-nav--has-dropdown" data-has-dropdowns="">
-    <button class="site-nav__link site-nav__link--main site-nav__link--button" type="button" aria-expanded="false" aria-controls="SiteNavLabel-raw">
-      <span class="site-nav__label">Raw</span><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-down" viewBox="0 0 9 9"><path d="M8.542 2.558a.625.625 0 0 1 0 .884l-3.6 3.6a.626.626 0 0 1-.884 0l-3.6-3.6a.625.625 0 1 1 .884-.884L4.5 5.716l3.158-3.158a.625.625 0 0 1 .884 0z" fill="#fff"></path></svg>
-    </button>
 
-    <div class="site-nav__dropdown critical-hidden site-nav__dropdown--right" id="SiteNavLabel-raw">
-      
-        <ul>
-          
-            <li>
-              <a href="/collections/cold-pressed-100-organic-oils" class="site-nav__link site-nav__child-link">
-                <span class="site-nav__label">Carrier Oils</span>
-              </a>
-            </li>
-          
-            <li>
-              <a href="/collections/100-plant-powders" class="site-nav__link site-nav__child-link site-nav__link--last">
-                <span class="site-nav__label">Plant Powders</span>
-              </a>
-            </li>
-          
-        </ul>
-      
-    </div>
-  </li>
 
 
 
@@ -299,7 +166,7 @@ const Header = () => {
 <li class="mobile-nav__item border-bottom">
         
           <a href="/collections/hair-color" class="mobile-nav__link">
-            <span class="mobile-nav__label">Colour</span>
+            <span class="mobile-nav__label">Coour</span>
           </a>
         
       </li>
