@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/Css/Header.css'
+import '../assets/Css/Common.css'
 import { Link } from 'react-router-dom'
 const Header = () => {
   return (
